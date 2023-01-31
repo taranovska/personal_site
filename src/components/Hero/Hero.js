@@ -19,7 +19,16 @@ const Hero = (props) => (
         I am a front-end developer with a passion for learning new technologies
         and creating beautiful, responsive websites.
       </SectionText>
-      <Button>Learn More</Button>
+      <Button
+        onClick={() =>
+          window.open(
+            "https://www.linkedin.com/in/nataliia-taranovska-1a0592233/",
+            "_blank"
+          )
+        }
+      >
+        Learn More
+      </Button>
     </LeftSection>
   </Section>
 );

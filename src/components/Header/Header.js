@@ -26,7 +26,7 @@ const Header = () => (
           }}
         >
           <DiCssdeck size="3rem" />
-          <Span>Portfolio</Span>
+          <Span>Nataliia Taranovska</Span>
         </a>
       </Link>
     </Div1>
