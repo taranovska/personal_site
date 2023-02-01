@@ -49,10 +49,21 @@ const Header = () => (
     </Div2>
     <Div3>
       <SocialIcons href="">
-        <AiFillGithub size="3rem" />
+        <AiFillGithub
+          size="3rem"
+          onClick={() => window.open("https://github.com/taranovska", "_blank")}
+        />
       </SocialIcons>
       <SocialIcons href="">
-        <AiFillLinkedin size="3rem" />
+        <AiFillLinkedin
+          size="3rem"
+          onClick={() =>
+            window.open(
+              "https://www.linkedin.com/in/nataliia-taranovska-1a0592233/",
+              "_blank"
+            )
+          }
+        />
       </SocialIcons>
     </Div3>
   </Container>

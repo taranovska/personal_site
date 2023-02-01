@@ -16,8 +16,10 @@ const Hero = (props) => (
         My Personal Portfolio
       </SectionTitle>
       <SectionText>
-        I am a front-end developer with a passion for learning new technologies
-        and creating beautiful, responsive websites.
+        Welcome to my personal portfolio, a platform that showcases my skills
+        and achievements as a front-end developer. My passion for technology and
+        design is evident in my work, as I strive to create beautiful and
+        responsive websites that provide a seamless user experience.
       </SectionText>
       <Button
         onClick={() =>
