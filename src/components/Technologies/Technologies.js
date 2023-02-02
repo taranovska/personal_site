@@ -35,8 +35,8 @@ const Technologies = () => (
     <SectionText>
       As a front-end developer, I have extensive experience working with a
       variety of technologies in the web development world. My knowledge of
-      HTML/CSS, JavaScript, React.js, Next.js has allowed me to create beautiful
-      and responsive websites that provide a seamless user experience.
+      JavaScript, React.js, TS, Next.js has allowed me to create beautiful and
+      responsive websites that provide a seamless user experience.
     </SectionText>
     <div
       style={{
