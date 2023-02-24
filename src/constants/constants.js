@@ -1,12 +1,14 @@
 export const projects = [
   {
-    title: "Comfy Store",
+    title: "Movies App",
     description:
-      "Using modern technologies like Context API, Styled Components, React Hooks, I built a fully functional e-commerce website from scratch. The website is fully responsive and works on all devices.",
-    image: "/images/comfy.png",
-    tags: ["Context API", "Styled Components", "React Hooks"],
-    source: " https://fanciful-halva-a4679c.netlify.app/",
-    visit: "https://github.com/taranovska/e-commerce-project",
+      "This is a full Movies App using Angular. I used the themoviedb.org API to fetch movies and display them. I used the PrimeNg library to create the UI.",
+
+    image: "/images/plane.png",
+    tags: ["Angular", "API", "PrimeNg"],
+    source:
+      " https://taranovska.github.io/movies-app-angular/angular-movies-db/",
+    visit: "https://github.com/taranovska/movies-app-angular",
     id: 0,
   },
   {
@@ -20,6 +22,16 @@ export const projects = [
     id: 1,
   },
   {
+    title: "Comfy Store",
+    description:
+      "Using modern technologies like Context API, Styled Components, React Hooks, I built a fully functional e-commerce website from scratch. The website is fully responsive and works on all devices.",
+    image: "/images/comfy.png",
+    tags: ["Context API", "Styled Components", "React Hooks"],
+    source: " https://fanciful-halva-a4679c.netlify.app/",
+    visit: "https://github.com/taranovska/e-commerce-project",
+    id: 2,
+  },
+  {
     title: "Light/Dark Mode",
     description:
       "This is a full Toggling Light/Dark Mode using React. I used the useState and useEffect React hooks to toggle the mode.",
@@ -27,7 +39,7 @@ export const projects = [
     tags: ["React"],
     source: "https://rad-smakager-e9140b.netlify.app/",
     visit: "https://github.com/taranovska/dark-mode",
-    id: 2,
+    id: 3,
   },
   {
     title: "Filtered Menu",
@@ -37,6 +49,6 @@ export const projects = [
     tags: ["React", "API"],
     source: "https://dulcet-hamster-b1e2b3.netlify.app/",
     visit: "https://github.com/taranovska/filtered-menu",
-    id: 3,
+    id: 4,
   },
 ];
